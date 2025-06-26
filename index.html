@@ -1,15 +1,9 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-	<script>
-  document.addEventListener("contextmenu", function (e) {
-    e.preventDefault(); // Prevent the right-click menu
-  });
-</script>
-
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1" />
-  <title>Smart Tuition Classes</title>
+  <title>GenZe Classes</title>
   <style>
     body {
       font-family: Arial, sans-serif;
@@ -65,6 +59,25 @@
     }
   </style>
 </head>
+
+	
+<body>
+
+  <h1>Try Right Clicking on This Page</h1>
+
+  <!-- Your content here -->
+
+  <script>
+    // Disable right-click menu on the entire page
+    document.addEventListener("contextmenu", function (e) {
+      e.preventDefault(); // Prevent the default right-click menu
+      alert("Right-click is disabled on this page!");
+    });
+  </script>
+</body>
+
+
+	
 <body>
 
   <header style="
